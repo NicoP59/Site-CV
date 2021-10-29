@@ -1,4 +1,4 @@
-const items = document.querySelectorAll("div");
+const items = document.querySelectorAll(".active");
 const nbSlide = items.length;
 const suivant = document.querySelector(".right");
 const precedent = document.querySelector(".left");
