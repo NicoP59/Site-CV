@@ -2,7 +2,6 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-
 }
 ul {
   margin: 0;
@@ -17,20 +16,19 @@ h2 {
   text-align: center;
   padding-top: 30px;
   font-size: 2em;
-  color:black;
+  color: black;
 }
 a {
   text-decoration: none;
   color: black;
 }
 
-  header{
+header {
   background: url("imageonline-co-blurimage.png") no-repeat fixed 50% 50%;
   background-size: cover;
   padding-top: 60px;
-  height: 150vh;
-  ;
-} 
+  height: 200vh;
+}
 
 /* *************** Barre de navigation ****************** */
 
@@ -55,11 +53,10 @@ header li a {
 
 /* **************** IMAGE PRINCIPALE ****************** */
 
-
 h1 {
   text-align: center;
-  color: bl;
-  font-size: 6em;
+  color: black;
+  font-size: 7em;
   margin-top: 100px;
 }
 
@@ -69,6 +66,17 @@ h1 {
   margin: -1px auto;
   background-color: #fffae1;
   box-shadow: 1px 3px 2px black;
+  position: relative;
+  top: 10%;
+}
+
+.titresite {
+  position: relative;
+  top: 20%;
+}
+
+.ImagePrincipal {
+  height: 100vh;
 }
 
 p {
@@ -77,18 +85,37 @@ p {
   font-size: 1.5em;
 }
 
+.imgNico {
+  width: 10vw;
+  position: relative;
+  top: 30%;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: grayscale(100%);
+}
+
 /* * ***************** SLIDE ****************** */
 
- *, ::before, ::after {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .container {
-  margin: 0 auto; 
- padding: 150px;;
-  width: 100%;
-  height: 100vh;
+  margin: 0 auto;
+  /* padding: 150px; */
+  width: 50vw;
+}
+
+.titreslide {
+  padding: 100px;
+  /* A VOIR  */
 }
 
 .slider div {
@@ -97,14 +124,13 @@ p {
   height: 50vh;
 }
 
-.active{
+.active {
   color: #000;
 }
 div.active {
   display: block;
   animation: fade 0.8s;
   color: #000;
-  height: 50vh;
 }
 @keyframes fade {
   from {
@@ -119,7 +145,7 @@ div.active {
   width: 100%;
   height: auto;
   border: 1px solid #000;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
 }
@@ -129,9 +155,8 @@ div.active {
   cursor: pointer;
 }
 
-
 /* ***************************************test barre progression******************************************** */
-#progression{
+#progression {
   width: 100vw;
   height: 30vh;
   display: flex;
@@ -142,14 +167,11 @@ label {
   padding-right: 10px;
   font-size: 2rem;
   display: flex;
-
 }
 
-#file{
+#file {
   background-color: crimson;
 }
-
-
 
 /* ******************* section ********************** */
 
@@ -164,7 +186,7 @@ label {
 }
 
 .infos {
-   overflow-y: hidden;
+  overflow-y: hidden;
   font-size: 30px;
   text-align: center;
   margin-top: 30px;
@@ -174,11 +196,15 @@ label {
   border: 1px solid black;
   padding: 50px;
   box-shadow: rgb(16, 16, 16);
-   background-color: rgb(38, 88, 100);
+  background-color: rgb(38, 88, 100);
+}
+
+.download {
+  width: 5vw;
 }
 
 .contact {
-   overflow-y: hidden;
+  overflow-y: hidden;
   text-align: center;
   margin-top: 30px;
   height: 50vh;
@@ -187,13 +213,13 @@ label {
   border: 1px solid black;
   padding: 50px;
   box-shadow: rgb(180, 177, 177);
-   background-color: rgb(50, 81, 184); 
+  background-color: rgb(50, 81, 184);
 }
 
 /* ************* footer ****************** */
 
 footer {
- background-color: #524a3a;
+  background-color: #524a3a;
   color: #fffae1;
   padding: 20px 0 10px 0;
   text-align: center;
@@ -270,4 +296,3 @@ footer {
     opacity: 1;
   }
 }
-

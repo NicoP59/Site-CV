@@ -8,91 +8,89 @@
     <title>CV</title>
   </head>
   <body>
-    <header>   
+    <header>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          
         </ul>
       </nav>
       <div class="ImagePrincipal">
-        <h1 class= tittle>Nicolas Payne</h1>
+        <h1 class="tittle">Nicolas Payne</h1>
         <div class="premierTrait"></div>
-        <p>
+        <p class="titresite">
           Decouvrez sur mon site qui je suis,ce que je fais <br />
           et comment me contacté.Soyez les bienvenus !
         </p>
+        <img src="nico.jpg" alt="" class="imgNico" />
       </div>
-    
-    <article>
-      <!-- slide -->
 
-       <div class="container">
-        <div class="slider">
-          <div class="active">
-            <h2>À PROPOS</h2>
-            <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              voluptatum modi earum ab officia odit maxime accusantium suscipit,
-              culpa fuga repudiandae saepe, distinctio vel voluptatibus ipsum
-              pariatur! Perspiciatis, ullam pariatur? 
-            </p>
+      <article>
+        <!-- slide -->
+
+        <div class="container">
+          <div class="slider">
+            <div class="active">
+              <h2 class="titreslide">À PROPOS</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                voluptatum modi earum ab officia odit maxime accusantium
+                suscipit, culpa fuga repudiandae saepe, distinctio vel
+                voluptatibus ipsum pariatur! Perspiciatis, ullam pariatur?
+              </p>
+            </div>
+            <div class="active">
+              <h2>EXPÉRIENCE</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio magni inventore voluptatibus id suscipit. Saepe
+                provident laboriosam culpa dolorum, quo incidunt odio, sit
+                repudiandae perspiciatis voluptatibus maxime aperiam quod cum?
+              </p>
+            </div>
+            <div class="active">
+              <h2>ÉDUCATION</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Debitis corrupti molestias tempora iste, laudantium repudiandae
+                minima fugiat sunt rem, adipisci eveniet itaque eaque cumque
+                esse! Alias magni recusandae suscipit et?
+              </p>
+            </div>
+            <div class="active">
+              <h2>LOISIRS</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                doloremque veniam magnam. In porro nostrum ipsa numquam maxime
+                laboriosam reprehenderit? Sint voluptatem minus magnam
+                distinctio voluptatum exercitationem illum dolorum laudantium?
+              </p>
+            </div>
           </div>
-          <div class="active">
-            <h2>EXPÉRIENCE</h2>
-            <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio magni inventore voluptatibus id suscipit. Saepe
-              provident laboriosam culpa dolorum, quo incidunt odio, sit
-              repudiandae perspiciatis voluptatibus maxime aperiam quod cum? 
-            </p>
+          <div class="cont-btn">
+            <div class="btn-nav left">←</div>
+            <div class="btn-nav right">→</div>
           </div>
-          <div class="active">
-            <h2>ÉDUCATION</h2>
-            <p>
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
-              corrupti molestias tempora iste, laudantium repudiandae minima
-              fugiat sunt rem, adipisci eveniet itaque eaque cumque esse! Alias
-              magni recusandae suscipit et?
-            </p> 
-          </div>
-          <div class="active">
-            <h2>LOISIRS</h2>
-            <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-              doloremque veniam magnam. In porro nostrum ipsa numquam maxime
-              laboriosam reprehenderit? Sint voluptatem minus magnam distinctio
-              voluptatum exercitationem illum dolorum laudantium?
-            </p>
-          </div>
-        </div> 
-        <div class="cont-btn">
-          <div class="btn-nav left">←</div>
-          <div class="btn-nav right">→</div>
         </div>
-      </div>
-    
 
-      <!-- slide fin -->
-    </article>
-  </header>
+        <!-- slide fin -->
+      </article>
+    </header>
     <!-- test barre progression -->
-   <div id="progression">
-    <div class="file">
-    <label for="file">HTML progress:</label>
-    <progress id="file" max="100" value="50"> 50% </progress>
+    <div id="progression">
+      <div class="file">
+        <label for="file">HTML progress:</label>
+        <progress id="file" max="100" value="50">50%</progress>
+      </div>
+      <div class="file">
+        <label for="file">CSS progress:</label>
+        <progress id="file" max="100" value="50">50%</progress>
+      </div>
+      <div class="file">
+        <label for="file">javascript progress:</label>
+        <progress id="file" max="100" value="5">5%</progress>
+      </div>
     </div>
-    <div class="file">
-    <label for="file">CSS progress:</label>
-    <progress id="file" max="100" value="50"> 50% </progress>
-    </div>
-    <div class="file">
-    <label for="file">javascript progress:</label>
-    <progress id="file" max="100" value="5"> 5% </progress>
-    </div>
-  </div>
-  
-   
+
     <!-- fin barre progrssion -->
     <section id="conteneur">
       <div class="infos">
@@ -102,6 +100,25 @@
           <li>E-mail: blablabla</li>
           <li>Adresse: quelque part perdu</li>
         </ul>
+        <div>
+          <p>Téléchargez mon cv</p>
+          <a href="cv.pdf" download target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="download"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
       <div class="contact">
         <h2>ME CONTACTER</h2>
@@ -136,12 +153,17 @@
       <div class="followUs">
         <p class="titleFollowUs">Suivez-moi</p>
         <div class="logosContainer">
-          <a href="https://fr-fr.facebook.com/" target="blank"><img src="facebooklogo.png" class="imglogos imgFacebook" /></a>
-          <a href="https://twitter.com/?lang=fr" target="blank"><img src="twitterlogo.png" class="imglogos imgTwitter" /></a>
-          <a href="https://www.instagram.com/?hl=fr" target="blank"><img src="instagramlogo.png" class="imglogos imgInstagram" /></a>
+          <a href="https://fr-fr.facebook.com/" target="blank"
+            ><img src="facebooklogo.png" class="imglogos imgFacebook"
+          /></a>
+          <a href="https://twitter.com/?lang=fr" target="blank"
+            ><img src="twitterlogo.png" class="imglogos imgTwitter"
+          /></a>
+          <a href="https://www.instagram.com/?hl=fr" target="blank"
+            ><img src="instagramlogo.png" class="imglogos imgInstagram"
+          /></a>
         </div>
       </div>
-
     </footer>
     <script type="text/javascript" src="app.js"></script>
   </body>

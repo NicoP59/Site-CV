@@ -1,6 +1,4 @@
-
 // **************************************SLIDE***************************************
-
 
 const items = document.querySelectorAll(".active");
 const nbSlide = items.length;
@@ -32,7 +30,7 @@ function slidePrecedente() {
   }
 
   items[count].classList.add("active");
-  // console.log(count);
+  console.log(count);
 }
 precedent.addEventListener("click", slidePrecedente);
 
@@ -47,9 +45,9 @@ function keyPress(e) {
 }
 document.addEventListener("keydown", keyPress);
 
-slidePrecedente()
-slidePrecedente()
-slidePrecedente()
-slidePrecedente()
+slidePrecedente();
+slidePrecedente();
+slidePrecedente();
+slidePrecedente();
 
 // ********************************FIN DE SLIDE********************************************
