@@ -12,8 +12,7 @@
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#Contact">Contact</a></li>
-          <li><a href="#Qui je suis">Qui je suis</a></li>
+          
         </ul>
       </nav>
       <div class="ImagePrincipal">
@@ -24,14 +23,14 @@
           et comment me contacté.Soyez les bienvenus !
         </p>
       </div>
-    </header>
+    
     <article>
       <!-- slide -->
 
        <div class="container">
         <div class="slider">
           <div class="active">
-            <h1>À PROPOS</h1>
+            <h2>À PROPOS</h2>
             <p>
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
               voluptatum modi earum ab officia odit maxime accusantium suscipit,
@@ -40,7 +39,7 @@
             </p>
           </div>
           <div class="active">
-            <h1>EXPÉRIENCE</h1>
+            <h2>EXPÉRIENCE</h2>
             <p>
                Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio magni inventore voluptatibus id suscipit. Saepe
@@ -49,7 +48,7 @@
             </p>
           </div>
           <div class="active">
-            <h1>ÉDUCATION</h1>
+            <h2>ÉDUCATION</h2>
             <p>
                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
               corrupti molestias tempora iste, laudantium repudiandae minima
@@ -58,7 +57,7 @@
             </p> 
           </div>
           <div class="active">
-            <h1>LOISIRS</h1>
+            <h2>LOISIRS</h2>
             <p>
                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
               doloremque veniam magnam. In porro nostrum ipsa numquam maxime
@@ -72,14 +71,27 @@
           <div class="btn-nav right">→</div>
         </div>
       </div>
+    
 
       <!-- slide fin -->
     </article>
+  </header>
     <!-- test barre progression -->
-    <div class="progress-bar blue">HTML</div>
-    <div class="progress-bar green">CSS</div>
-    <div class="progress-bar red">javascript</div>
-    <div class="progress-bar orange"></div>
+  <div id="progression">
+    <div class="file">
+    <label for="file">HTML progress:</label>
+    <progress id="file" max="100" value="50"> 50% </progress>
+    </div>
+    <div class="file">
+    <label for="file">CSS progress:</label>
+    <progress id="file" max="100" value="50"> 50% </progress>
+    </div>
+    <div class="file">
+    <label for="file">javascript progress:</label>
+    <progress id="file" max="100" value="5"> 5% </progress>
+    </div>
+  </div>
+   
     <!-- fin barre progrssion -->
     <section id="conteneur">
       <div class="infos">
@@ -101,7 +113,7 @@
         <label for="phone">Entrer votre numero de telephone:</label>
         <input type="tel" id="phone" name="phone" /><br />
         <textarea
-          rows="15"
+          rows="5"
           cols="30"
           id="message"
           name="message"
@@ -120,6 +132,15 @@
           <a href=""><i class=""></i></a>
         </div>
       </div>
+      <div class="followUs">
+        <p class="titleFollowUs">Suivez-moi</p>
+        <div class="logosContainer">
+          <a href="https://fr-fr.facebook.com/" target="blank"><img src="facebooklogo.png" class="imglogos imgFacebook" /></a>
+          <a href="https://twitter.com/?lang=fr" target="blank"><img src="twitterlogo.png" class="imglogos imgTwitter" /></a>
+          <a href="https://www.instagram.com/?hl=fr" target="blank"><img src="instagramlogo.png" class="imglogos imgInstagram" /></a>
+        </div>
+      </div>
+
     </footer>
     <script type="text/javascript" src="app.js"></script>
   </body>

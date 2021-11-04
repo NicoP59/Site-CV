@@ -1,3 +1,7 @@
+
+// **************************************SLIDE***************************************
+
+
 const items = document.querySelectorAll(".active");
 const nbSlide = items.length;
 const suivant = document.querySelector(".right");
@@ -42,3 +46,10 @@ function keyPress(e) {
   }
 }
 document.addEventListener("keydown", keyPress);
+
+slidePrecedente()
+slidePrecedente()
+slidePrecedente()
+slidePrecedente()
+
+// ********************************FIN DE SLIDE********************************************
