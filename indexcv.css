@@ -32,14 +32,6 @@ a {
   ;
 } 
 
-.tittle{
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -o-filter: blur(0px);
-  -ms-filter: blur(0px);
-  filter: blur(0px);
-}
-
 /* *************** Barre de navigation ****************** */
 
 nav {
@@ -94,7 +86,7 @@ p {
 }
 .container {
   margin: 0 auto; 
- padding: 100px;;
+ padding: 150px;;
   width: 100%;
   height: 100vh;
 }
@@ -102,6 +94,7 @@ p {
 .slider div {
   max-width: 100%;
   display: none;
+  height: 50vh;
 }
 
 .active{
@@ -111,6 +104,7 @@ div.active {
   display: block;
   animation: fade 0.8s;
   color: #000;
+  height: 50vh;
 }
 @keyframes fade {
   from {
@@ -136,11 +130,10 @@ div.active {
 }
 
 
-/* test barre progression */
+/* ***************************************test barre progression******************************************** */
 #progression{
   width: 100vw;
   height: 30vh;
- /* background-color: rgb(66, 17, 107); */
   display: flex;
   justify-content: space-around;
   align-items: center;
