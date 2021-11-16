@@ -59,9 +59,12 @@ header li a {
 
 h1 {
   text-align: center;
-  color: rgb(180, 180, 180);
+  color: black;
   font-size: 3em;
   margin-top: 100px;
+}
+.tittle{
+  font-size: 5em;
 }
 
 .premierTrait {
@@ -86,7 +89,7 @@ h1 {
 
 p {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 1.5em;
 }
 
@@ -327,7 +330,7 @@ div.active {
 /* ************* footer ****************** */
 
 footer {
-  background-color: #524a3a;
+  background-color: #6d634f;
   color: #fffae1;
   padding: 20px 0 10px 0;
   text-align: center;
@@ -402,5 +405,27 @@ footer {
   }
   100% {
     opacity: 1;
+  }
+}
+
+
+/* ****************************responsive********************************** */
+@media screen and (max-width: 770px){
+.imgNico{
+  display: none;
+}
+  .contact{
+    font-size: 0.8em;
+    padding: 0;
+  }
+  .infos{
+    font-size: 0.8em;
+    padding: 0;
+  }
+  h1, p{
+    font-size: 1em;
+  }
+  .titreslide{
+    padding: 0;
   }
 }
