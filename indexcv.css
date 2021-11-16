@@ -156,6 +156,11 @@ div.active {
   cursor: pointer;
 }
 
+.loisirs {
+  display: flex;
+  justify-content: space-around;
+}
+
 .cinema {
   height: 5vh;
   width: 5vw;
