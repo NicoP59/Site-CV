@@ -24,7 +24,7 @@ a {
 }
 
 header {
-  background: url("imageonline-co-blurimage.png") no-repeat fixed 50% 50%;
+  background: url('imageonline-co-blurimage.png') no-repeat fixed 50% 50%;
   background-size: cover;
   padding-top: 60px;
   height: 200vh;
@@ -159,34 +159,83 @@ div.active {
 .cinema {
   height: 5vh;
   width: 5vw;
-  
 }
-.livre{
+.livre {
   height: 5vh;
-  width:5vw ;
+  width: 5vw;
 }
-.music{
+.music {
   height: 5vh;
-  width:5vw ; 
+  width: 5vw;
 }
-
 
 /* ***************************************test barre progression******************************************** */
-#progress{
- 
-  height: 30vh;
+.title-progress {
+  margin: 50px;
+  padding: 0;
+}
+
+#progress {
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
- 
 }
+
+.name-barre {
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.html-barre {
+  width: 70vw;
+  background-color: rgb(250, 207, 128);
+}
+
+.html {
+  width: 55vw;
+  background-color: orange;
+}
+
+.js-barre {
+  width: 70vw;
+  background-color: rgb(221, 221, 176);
+}
+
+.js {
+  width: 15vw;
+  background-color: rgb(218, 218, 5);
+}
+
+.css-barre {
+  width: 70vw;
+  background-color: rgb(199, 199, 255);
+}
+
+.css {
+  width: 35vw;
+  background-color: rgb(88, 88, 252);
+}
+
+.bootstrap-barre {
+  width: 70vw;
+  background-color: rgb(192, 114, 192);
+}
+
+.bootstrap {
+  width: 30vw;
+  background-color: rgb(70, 1, 70);
+}
+
 /* ******************* section ********************** */
 
 #conteneur {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: "Ephesis-Regular.ttf";
+  font-family: 'Ephesis-Regular.ttf';
   width: 100%;
   height: 40vh;
 }
