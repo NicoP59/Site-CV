@@ -450,6 +450,11 @@ footer {
 
 /* ****************************responsive********************************** */
 
+@media screen and (max-width: 1024px) {
+  .titreslide {
+    padding: 0;
+  }
+}
 @media screen and (max-width: 900px) {
   .infos h5,
   .typed {
